@@ -24,9 +24,19 @@ However, the actual syntax differs between each software tool.
 
 `mayapy python-script scene parameter environment-name`
 
+I have used two batch scripts for conventiently rendering scenes:
+
+- `mayaStandalone_AllEnvironments.bat`: scene with IBL (scene must include at least one `AiSkyDome`) - render the scene with all possible HDRi background images, provided in the respective folder (see `mayaStandalone_RenderMatParam.py`, l. 17)
+- `mayaStandalone_DirectionalLight.bat`: scene without IBL
+
 ## Blender
 
 `blender -b scene -P python-script render-engine parameter environment-name`
+
+Again, I have used two batch scripts for conventiently rendering scenes:
+
+- `blender_AllEnvironments.bat`: scene with IBL (will change background of scene via world settings) - render the scene with all possible HDRi background images, provided in the respective folder (see `blender_RenderMatParam.py`, l. 17)
+- `blender_DirectionalLight.bat`: scene without IBL
 
 ## Unreal Engine
 
