@@ -20,6 +20,8 @@ The general syntax is:
 
 However, the actual syntax differs between each software tool.
 
+The command will execute a Python program that will change the material properties and render the scene afterwards. **All references such as path names or the name of the material are defined in the Python scripts.** If there are any questions, feel free to ask.
+
 ## Maya
 
 `mayapy python-script scene parameter environment-name`
