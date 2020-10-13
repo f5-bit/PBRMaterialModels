@@ -5,6 +5,8 @@ Code for my bachelor thesis "Comparison of material models in modern physically 
 
 To investigate how the PBR material models of the chosen rendering tools differ in terms of the quality and range of reproducible materials, several images depicting an object with different material properties in a certain lighting condition were generated. The material property is influenced by exactly one parameter at a time. Each time the value of the parameter is incremented with a specific step size, a new image is created. This results in a row of images for each rendering tool, which are contrasted in a table, also referred to as **material chart**.
 
+![Material chart for parameter 'Metallic'](matchart-metallic-lebombo_1k.png)
+
 Within the context of my paper, four material parameters are examined in more detail (*Roughness*, *Specular*, *Metallic*, *Clearcoat*).
 The so far examined shader models are:
 - the “Principled BSDF” in Blender
